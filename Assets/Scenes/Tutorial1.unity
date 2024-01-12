@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 317393966}
   - component: {fileID: 317393965}
   - component: {fileID: 317393964}
-  - component: {fileID: 317393963}
+  - component: {fileID: 317393967}
   m_Layer: 5
   m_Name: BackToMainMenu
   m_TagString: Untagged
@@ -573,18 +573,6 @@ RectTransform:
   m_AnchoredPosition: {x: -204, y: -383}
   m_SizeDelta: {x: 51.0208, y: 49.685}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &317393963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317393961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61988119431b8b143987ce95eb7fc729, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &317393964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,8 +617,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 317393963}
-        m_TargetAssemblyTypeName: ChangeSceneToMainMenu, Assembly-CSharp
+      - m_Target: {fileID: 317393967}
+        m_TargetAssemblyTypeName: ChangeSceneToMapa, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -679,6 +667,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317393961}
   m_CullTransparentMesh: 1
+--- !u!114 &317393967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317393961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1126fe828211a1e46b84f0a049f4465b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &335633813
 GameObject:
   m_ObjectHideFlags: 0
