@@ -2018,7 +2018,6 @@ GameObject:
   - component: {fileID: 1238608246}
   - component: {fileID: 1238608245}
   - component: {fileID: 1238608244}
-  - component: {fileID: 1238608247}
   m_Layer: 5
   m_Name: ProTip
   m_TagString: Untagged
@@ -2112,20 +2111,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1238608247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238608242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64c3687c933ca4443aac3d66039cc2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvasActual: {fileID: 1160625293}
-  canvasSiguiente: {fileID: 0}
 --- !u!1 &1456193535
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,6 +2232,7 @@ GameObject:
   - component: {fileID: 1657427383}
   - component: {fileID: 1657427382}
   - component: {fileID: 1657427381}
+  - component: {fileID: 1657427384}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -2317,7 +2303,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1657427382}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1657427384}
+        m_TargetAssemblyTypeName: TipCanvasHide, Assembly-CSharp
+        m_MethodName: CambiarCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1657427382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2356,6 +2354,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657427379}
   m_CullTransparentMesh: 1
+--- !u!114 &1657427384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657427379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c08fdf449f8f4d41af3852168fecc7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasActual: {fileID: 1238608242}
 --- !u!1 &1754326045
 GameObject:
   m_ObjectHideFlags: 0
