@@ -1969,6 +1969,7 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+<<<<<<< HEAD
 --- !u!1 &1370319983
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,6 +2067,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+=======
+>>>>>>> 27b616cac30a5e8ce16bff1cd052ddf879938f39
 --- !u!1 &1456193535
 GameObject:
   m_ObjectHideFlags: 0
