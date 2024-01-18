@@ -5,7 +5,6 @@ using UnityEngine;
 public class TipCanvasHide : MonoBehaviour
 {
     public GameObject canvasActual;
-    public GameObject canvasSiguiente;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +20,5 @@ public class TipCanvasHide : MonoBehaviour
     public void CambiarCanvas()
     {
         canvasActual.SetActive(false);
-        canvasSiguiente.SetActive(true);
     }
 }
