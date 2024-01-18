@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-public class ChangeSceneToSettings : MonoBehaviour
+
+public class KeepAudioToScenes : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,8 +15,9 @@ public class ChangeSceneToSettings : MonoBehaviour
     {
         
     }
-    public void ChangeScene()
+    private void Awake()
     {
-        SceneManager.LoadScene("Settings");
+        // Asegúrate de que este objeto no se destruya al cargar una nueva escena
+        DontDestroyOnLoad(this.gameObject);
     }
 }

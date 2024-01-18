@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class BackToTutorialPage : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
-    {
+    {   
 
     }
 
@@ -18,5 +19,6 @@ public class BackToTutorialPage : MonoBehaviour
     public void ChangeScene()
     {
         SceneManager.LoadScene("Tutorial1");
+
     }
 }
