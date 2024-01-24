@@ -1821,6 +1821,7 @@ GameObject:
   - component: {fileID: 1685961433}
   - component: {fileID: 1685961435}
   - component: {fileID: 1685961434}
+  - component: {fileID: 1685961436}
   m_Layer: 5
   m_Name: ImatgeMapa
   m_TagString: Untagged
@@ -1886,6 +1887,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685961432}
   m_CullTransparentMesh: 1
+--- !u!114 &1685961436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685961432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95583a1a385a3be448fd5ad3fada0d1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minScale: 1
+  maxScale: 7
 --- !u!1 &1754326045
 GameObject:
   m_ObjectHideFlags: 0
