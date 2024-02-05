@@ -17,6 +17,6 @@ public class ChangeSceneToMapa : MonoBehaviour
     }
     public void ChangeScene()
     {
-        SceneManager.LoadScene("Mapa");
+        SceneManager.LoadScene("Escena Base");
     }
 }
