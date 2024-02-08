@@ -28,5 +28,8 @@ public class ManagerScene : MonoBehaviour
         canvasActual.SetActive(false);
         canvasSiguiente.SetActive(true);
     }
-
+    public void ActivarCanvas()
+    {
+        canvasSiguiente.SetActive(true);
+    }
 }
