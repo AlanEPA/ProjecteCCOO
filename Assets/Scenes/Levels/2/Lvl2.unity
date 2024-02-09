@@ -2419,14 +2419,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: CafeZurich
+  mTrackableName: IMG_2690 (1)
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1.3333333
   mImageTargetType: 3
   mWidth: 0.15
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 188601d23a2bf7e459665325e3effabe, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: ecdca2bd7b6e08743b7ca2d988c728a2, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -2461,7 +2461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1754326048}
   mHiddenRoot: {fileID: 0}
-  mTargetName: CafeZurich
+  mTargetName: IMG_2690 (1)
   mDatasetName: 
   mCastedBehaviour: {fileID: 1754326048}
   mMeshFilter: {fileID: 0}
@@ -2821,7 +2821,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983911011}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d83df1cf0d0ff424ab82f816d21aa4aa, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 5d1524884697bc34e8e0cf81898db6f1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
