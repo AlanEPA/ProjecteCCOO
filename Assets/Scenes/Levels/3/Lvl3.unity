@@ -2419,14 +2419,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: CafeZurich
+  mTrackableName: 3
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.3333333
+  mAspectRatio: 2.0725389
   mImageTargetType: 3
-  mWidth: 0.15
+  mWidth: 0.0965
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 188601d23a2bf7e459665325e3effabe, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: d0774de90ced83e4c93d176e1097d860, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -2461,7 +2461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1754326048}
   mHiddenRoot: {fileID: 0}
-  mTargetName: CafeZurich
+  mTargetName: 3
   mDatasetName: 
   mCastedBehaviour: {fileID: 1754326048}
   mMeshFilter: {fileID: 0}
@@ -2506,7 +2506,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865644306}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d99d53fef11075140abefe97d280cc92, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e67ed37fece08524ab5dcc864b21c067, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -2629,9 +2629,9 @@ RectTransform:
   - {fileID: 7756209}
   - {fileID: 1177769690}
   - {fileID: 1865644307}
-  - {fileID: 980438562}
   - {fileID: 1546503478}
   - {fileID: 38018983}
+  - {fileID: 980438562}
   - {fileID: 917701505}
   - {fileID: 1279997221}
   - {fileID: 2094865412}
@@ -2686,7 +2686,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983911011}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d83df1cf0d0ff424ab82f816d21aa4aa, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e67ed37fece08524ab5dcc864b21c067, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}

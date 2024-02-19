@@ -32,4 +32,8 @@ public class ManagerScene : MonoBehaviour
     {
         canvasSiguiente.SetActive(true);
     }
+    public void DesactivarCanvas()
+    {
+        canvasActual.SetActive(false);
+    }
 }
