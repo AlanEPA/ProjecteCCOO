@@ -18,6 +18,7 @@ public class MapTOLvl22 : MonoBehaviour
     }
     public void ChangeScene()
     {
-        SceneManager.LoadScene("lvl2-2");
+        SceneManager.LoadScene("lvl2");
+        Debug.Log("hola món");
     }
 }
