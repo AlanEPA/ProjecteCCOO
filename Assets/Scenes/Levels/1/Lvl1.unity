@@ -1161,10 +1161,17 @@ RectTransform:
   - {fileID: 1279997221}
   m_Father: {fileID: 1965539441}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 69, y: 813}
   m_SizeDelta: {x: 1714.1411, y: -1778.3579}
+=======
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 669, y: -65.5}
+  m_SizeDelta: {x: 2914.141, y: -51.35791}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &917701506
 MonoBehaviour:
@@ -1920,15 +1927,15 @@ RectTransform:
   m_GameObject: {fileID: 1177769689}
   m_LocalRotation: {x: -0, y: -0, z: 0.13883582, w: 0.99031544}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.52862775, y: 0.52862775, z: 0.52862775}
+  m_LocalScale: {x: 0.52862775, y: 0.8526766, z: 0.52862775}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1965539441}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 15.961}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -382, y: 192}
-  m_SizeDelta: {x: 1080, y: 1455.6}
+  m_AnchoredPosition: {x: -397, y: 258}
+  m_SizeDelta: {x: 1080, y: 671.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1177769691
 MonoBehaviour:
@@ -1950,7 +1957,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 188601d23a2bf7e459665325e3effabe, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4542c3b0525340c459999de07247f8bd, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2919,14 +2926,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: CafeZurich
+  mTrackableName: NL
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.3333333
+  mAspectRatio: 1.0071943
   mImageTargetType: 3
-  mWidth: 0.15
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 188601d23a2bf7e459665325e3effabe, type: 3}
+  mWidth: 0.19857141
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: 4542c3b0525340c459999de07247f8bd, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
